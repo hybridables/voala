@@ -1,0 +1,29 @@
+{
+  "name": "voala",
+  "version": "0.0.0",
+  "description": "WIP. Ultimate, feature-rich, minimal and stable testing framework for the future. ES2015-ready.",
+  "repository": "tunnckoCore/voala",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "component-emitter": "^1.2.0",
+    "dezalgo": "^1.0.3",
+    "is-real-object": "^1.0.1",
+    "is-typeof-error": "^1.0.1",
+    "merz": "^0.6.0",
+    "now-and-later": "0.0.6",
+    "onetime": "^1.0.0",
+    "sliced": "^1.0.1"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": []
+}

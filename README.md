@@ -11,6 +11,23 @@ npm i voala --save
 ```
 
 
+## Features
+- extremely small, fast and lightweight
+- before, after, before each, after each hooks
+- support generators, promises and callbacks - out of the box
+- series, settle series, parallel and settle parallel flows (settle means that it won't stop on first failure)
+- test coverage reporting - out of the box
+- javascript API for running tests 
+- command-line API for running multiple files using globs
+- proper exit status
+- highlights slow tests
+- skipping (not showing on the list) and pending (showing without execution) tests
+- prevent multiple calls to done() out of the box
+- use any assertion library you want, one built-in
+- extensible custom reporters, one built-in - mocha's spec
+- meaningful error outputs (and showing stacktraces through option) 
+
+
 ## Usage
 > For more use-cases see the [tests](./test.js)
 
